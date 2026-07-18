@@ -1,0 +1,15 @@
+# Build output
+build/
+
+# Generated sources (produced by `make` via tools/gen_chr.py)
+src/gen/
+assets/chr/
+
+# Test tooling
+.venv/
+__pycache__/
+
+# macOS / editor cruft
+.DS_Store
+*.swp
+*~
